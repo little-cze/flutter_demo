@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp2/page/home.dart';
+import 'package:flutterapp2/page/sliver/sliver_page.dart';
 import 'package:flutterapp2/page/start.dart';
 
 void main() => runApp(MyApp());
@@ -40,7 +41,7 @@ class _NavState extends State<Nav> with TickerProviderStateMixin {
       WorkHomePage(),
       StartPage(),
       StartPage(),
-      StartPage(),
+      APage(),
     ];
     controller = TabController(length:picList.length,vsync: this);
 
